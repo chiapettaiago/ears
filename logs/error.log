@@ -1,0 +1,121 @@
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 1, in <module>
+    from flask import Flask, request, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 1, in <module>
+    from flask import Flask, request, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 1, in <module>
+    from flask import Flask, request, render_template
+ModuleNotFoundError: No module named 'flask'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 2, in <module>
+  File "/srv/ears/app.py", line 2, in <module>
+        import requestsimport requests
+
+ModuleNotFoundErrorModuleNotFoundError: : No module named 'requests'No module named 'requests'
+
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 4, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 4, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 7, in <module>
+    from memory_profiler import profile
+ModuleNotFoundError: No module named 'memory_profiler'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 7, in <module>
+    from memory_profiler import profile
+ModuleNotFoundError: No module named 'memory_profiler'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 75, in <module>
+    os.makedirs(UPLOAD_FOLDER)
+  File "/srv/ears//746c2b4e3673f4d4835c011f1110abcf_venv/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'uploads'
+Traceback (most recent call last):
+  File "/srv/ears/app.py", line 75, in <module>
+    os.makedirs(UPLOAD_FOLDER)
+  File "/srv/ears//746c2b4e3673f4d4835c011f1110abcf_venv/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: 'uploads'
+ * Serving Flask app 'app'
+ * Debug mode: on
+ * Serving Flask app 'app'
+ * Debug mode: on
+Address already in use
+Port 4000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4000
+ * Running on http://191.252.223.140:4000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 606-207-514
+127.0.0.1 - - [25/Oct/2024 09:36:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:17] "[33mGET /server HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:18] "[33mGET /server HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:18] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:18] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:18] "[33mGET /about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:19] "[33mGET /about HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:19] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:20] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:20] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:20] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:21] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:21] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:21] "[33mGET /server-status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:21] "[33mGET /server-status HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:22] "[33mGET /login.action HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:22] "[33mGET /login.action HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:23] "[33mGET /_all_dbs HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:23] "[33mGET /_all_dbs HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:23] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:23] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:24] "[33mGET /404.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:24] "[33mGET /404.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:24] "[33mGET /404.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:25] "[33mGET /404.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:25] "[33mGET /s/734323e2136313e27363e2237313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:25] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:25] "[33mGET /s/2383e25313e21323e2430313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:26] "[33mGET /config.json HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:26] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:26] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:36:26] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:27] "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:55] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:36:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [25/Oct/2024 09:37:24] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Oct/2024 09:37:25] "GET / HTTP/1.1" 200 -
+Filename: /srv/ears/app.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    19     38.9 MiB     38.9 MiB           1   @profile
+    20                                         def query(filename):
+    21     38.9 MiB      0.0 MiB           2       with open(filename, "rb") as f:
+    22     38.9 MiB      0.0 MiB           1           data = f.read()
+    23     39.4 MiB      0.5 MiB           1       response = requests.post(API_URL, headers=headers, data=data)
+    24     39.4 MiB      0.0 MiB           1       return response.json()
+
+
+127.0.0.1 - - [25/Oct/2024 09:37:37] "POST / HTTP/1.1" 200 -

@@ -75,4 +75,4 @@ if __name__ == "__main__":
         os.makedirs(UPLOAD_FOLDER)
     
     start_scheduler()
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=4000)
